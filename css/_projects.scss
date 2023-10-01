@@ -1,0 +1,26 @@
+// projects.scss
+
+.paragraph1-projects{
+    width: 635px;
+    font-size: $font-size-xs;
+    opacity: $opacity-dark;
+    font-weight: $font-weight-medium;
+    line-height: $line-heigt-s;
+}
+
+
+td {
+    font-size: $font-size-s;
+    font-weight: $font-weight-heavy;
+    opacity: $opacity-light;
+}
+
+td {
+    border-bottom-style: solid;
+    padding: 10px;
+}
+
+.three-images {
+    display: flex;
+    flex-direction: row;
+}
