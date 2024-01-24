@@ -47,8 +47,12 @@
     margin-left: 0;
 }
 
-img {
+.gallery img {
     padding: 10px;  
+}
+
+.image-logo{
+    padding: 0px;
 }
 
 .section2{
@@ -56,6 +60,7 @@ img {
     align-items: baseline;
     margin-top: 90px;
     margin-bottom: 90px;
+    max-width: 1080px;
 }
 
 .heading-work{
@@ -93,6 +98,7 @@ hr {
     color: $primary-color;
     font-size: $font-size-m;
     font-weight: $font-weight-heavy;  
+    width: 252px;
 }
 
 .item2{

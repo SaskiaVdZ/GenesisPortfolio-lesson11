@@ -1,21 +1,24 @@
 @import 'variables', 'mixins', 'home', 'projects', 'contact';
 
 body {
-    height: 100vh;
-    width: 100%;
-    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
     font-family: $font-primary;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container {
+    max-width: 1110px;
 }
 
 nav {
     @include flex-row-space-between ();
     align-items: center;
-    margin-top: 20px;
-}
-
-.container {
-    margin: 100px;
-    width: 1110px;
+    margin-top: 4rem;
+    max-width: 1070px;
 }
 
 
@@ -27,23 +30,28 @@ ul {
 }
 
 li {
-    margin-left: 15px;
     color: $primary-color;
-    font-size: $font-size-s;
+    font-size: $font-size-m;
     font-weight: $font-weight-heavy;
+    padding-left: 10px;
   }
 
 a {
-    color: $primary-color;
+    color: $secondary-color;
     text-decoration: none;
     cursor: pointer;
 }
 
 a:hover {
-    color: $secondary-color;
+    color: #f24aaf;
+    
 }
 
-a.active {
-    color: $secondary-color;
-    text-decoration: none;
+a:active {
+    color: rgb(16, 205, 242);
+}
+
+
+footer {
+    margin-bottom: 2rem;
 }

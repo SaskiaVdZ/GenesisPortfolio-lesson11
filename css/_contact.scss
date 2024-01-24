@@ -1,12 +1,23 @@
 // contact.scss
+.container {
+    max-width: 1110px;
+}
+
 .section-form {
     @include flex-row-space-between ();
     align-items: flex-end;
-    margin-top: 50px;
+    margin-top: 10rem;
     margin-bottom: 100px;
+    width: 1110px;
 }
 
 form, input{
-    width: 475px;
+    width: 450px;
     border: none;
+}
+
+.map {
+    height: 600px;
+    max-width: 1110px;
+    margin-top: 5rem;
 }
