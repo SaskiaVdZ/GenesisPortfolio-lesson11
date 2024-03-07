@@ -196,7 +196,8 @@ td {
 }
 
 #womanWalking {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -218,7 +219,7 @@ td {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-right: 3rem;
+  /*padding-right: 3rem;*/
   margin-top: 10rem;
   margin-bottom: 6rem;
   justify-content: space-around;
@@ -311,7 +312,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin-top: 2rem;
-  max-width: 1070px;
+  width: 100%;
 }
 
 ul {
@@ -335,11 +336,16 @@ a {
 }
 
 a:hover {
-  color: #f24aaf;
+  color: rgb(16, 205, 242);
 }
 
-a:active {
+li a:active,
+li a:focus {
   color: rgb(16, 205, 242);
+}
+
+li a.active {
+  color: rgb(229, 95, 5);
 }
 
 footer {

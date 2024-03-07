@@ -20,7 +20,7 @@ nav {
     @include flex-row-space-between ();
     align-items: center;
     margin-top: 2rem;
-    max-width: 1070px;
+    width: 100%;
    
 }
 
@@ -47,12 +47,17 @@ a {
 }
 
 a:hover {
-    color: #f24aaf;
+    color:  rgb(16, 205, 242);
     
 }
 
-a:active {
+li a:active ,
+li a:focus{
     color: rgb(16, 205, 242);
+}
+
+li a.active {
+    color: rgb(229, 95, 5);
 }
 
 
