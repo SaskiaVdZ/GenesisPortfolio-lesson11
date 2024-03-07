@@ -37,6 +37,7 @@
   flex-direction: row;
   margin-top: 80px;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .column1, .column2, .column3 {
@@ -162,6 +163,10 @@ hr {
   flex-wrap: wrap;
 }
 
+table {
+  border-collapse: collapse;
+}
+
 .paragraph1-projects {
   max-width: 635px;
   font-size: 16px;
@@ -169,15 +174,22 @@ hr {
   font-weight: 400;
   line-height: 26px;
   flex-wrap: wrap;
+  padding-right: 3rem;
+}
+
+.paragraph2-projects {
+  font-size: 16px;
+  opacity: 0.8;
+  font-weight: 400;
+  line-height: 26px;
+  flex-wrap: wrap;
+  padding-right: 3rem;
 }
 
 td {
   font-size: 18px;
   font-weight: 700;
   opacity: 0.5;
-}
-
-td {
   border-bottom-style: solid;
   border-bottom-width: thin;
   padding: 10px;
@@ -186,14 +198,19 @@ td {
 #womanWalking {
   margin-top: 1.5rem;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .three-images {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 2rem;
   flex-wrap: wrap;
+}
+
+.three-images img {
+  margin: 0.5rem;
 }
 
 .section-form {

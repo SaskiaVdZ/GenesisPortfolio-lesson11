@@ -10,41 +10,57 @@
     flex-wrap: wrap; 
 }
 
+table {
+    border-collapse: collapse;
+}
 
-.paragraph1-projects{
+.paragraph1-projects {
     max-width: 635px;
     font-size: $font-size-xs;
     opacity: $opacity-dark;
     font-weight: $font-weight-medium;
     line-height: $line-heigt-s;
     flex-wrap: wrap;
+    padding-right: 3rem;
+}
+
+.paragraph2-projects {
+    font-size: $font-size-xs;
+    opacity: $opacity-dark;
+    font-weight: $font-weight-medium;
+    line-height: $line-heigt-s;
+    flex-wrap: wrap;
+    padding-right: 3rem;
 }
 
 td {
     font-size: $font-size-s;
     font-weight: $font-weight-heavy;
     opacity: $opacity-light;
-   
-}
-
-td {
     border-bottom-style: solid;
     border-bottom-width: thin;
     padding: 10px;
 }
-   
+
 
 #womanWalking {
     margin-top: 1.5rem;
     flex-wrap: wrap;
+    width: 100%;
  
 }
 
 .three-images {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 2rem;
     flex-wrap: wrap;
 
+
 }
+
+.three-images img{
+    margin: 0.5rem;
+}
+
