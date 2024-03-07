@@ -3,6 +3,7 @@
 .section1 {
     @include flex-row-space-between ();
     align-items: last baseline;
+    flex-wrap: wrap;
 }
 
 .title-home {
@@ -10,6 +11,7 @@
     font-size: $font-size-m;
     font-weight: $font-weight-heavy;
     margin-top: 80px;
+    
 }
 
 .heading-home {
@@ -29,12 +31,14 @@
     font-style: italic;
     font-weight: $font-weight-medium;
     opacity: $opacity-medium;
+    
 }
 
 .gallery {
     display: flex;
     flex-direction: row; 
     margin-top: 80px;
+    flex-wrap: wrap;
 }
 
 .column1, .column2, .column3 {
@@ -45,6 +49,7 @@
 
 .column1{
     margin-left: 0;
+
 }
 
 .gallery img {
@@ -61,6 +66,7 @@
     margin-top: 90px;
     margin-bottom: 90px;
     max-width: 1080px;
+    flex-wrap: wrap;
 }
 
 .heading-work{

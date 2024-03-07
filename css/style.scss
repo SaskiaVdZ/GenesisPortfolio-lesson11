@@ -3,8 +3,9 @@
 body {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
     font-family: $font-primary;
     margin: 0 auto;
     width: 100%;
@@ -12,13 +13,15 @@ body {
 
 .container {
     max-width: 1110px;
+    margin: 3rem;
 }
 
 nav {
     @include flex-row-space-between ();
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 2rem;
     max-width: 1070px;
+   
 }
 
 
@@ -27,6 +30,7 @@ ul {
     flex-direction: row;
     justify-content: end;
     list-style: none;
+    
 }
 
 li {

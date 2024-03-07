@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: last baseline;
+  flex-wrap: wrap;
 }
 
 .title-home {
@@ -35,6 +36,7 @@
   display: flex;
   flex-direction: row;
   margin-top: 80px;
+  flex-wrap: wrap;
 }
 
 .column1, .column2, .column3 {
@@ -63,6 +65,7 @@
   margin-top: 90px;
   margin-bottom: 90px;
   max-width: 1080px;
+  flex-wrap: wrap;
 }
 
 .heading-work {
@@ -150,20 +153,22 @@ hr {
   align-items: flex-end;
 }
 
-.container {
-  max-width: 1110px;
-}
-
 .section-table {
   margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.wrapper-table {
+  flex-wrap: wrap;
 }
 
 .paragraph1-projects {
-  width: 635px;
+  max-width: 635px;
   font-size: 16px;
   opacity: 0.8;
   font-weight: 400;
   line-height: 26px;
+  flex-wrap: wrap;
 }
 
 td {
@@ -180,6 +185,7 @@ td {
 
 #womanWalking {
   margin-top: 1.5rem;
+  flex-wrap: wrap;
 }
 
 .three-images {
@@ -187,10 +193,7 @@ td {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 2rem;
-}
-
-.container {
-  max-width: 1110px;
+  flex-wrap: wrap;
 }
 
 .section-form {
@@ -232,6 +235,7 @@ button {
   font-size: 16px;
   font-weight: bold;
   border: none;
+  border-radius: 12px;
 }
 
 i {
@@ -243,8 +247,9 @@ i {
 body {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-content: center;
   flex-direction: column;
+  flex-wrap: wrap;
   font-family: "Mulish", sans-serif;
   margin: 0 auto;
   width: 100%;
@@ -252,6 +257,7 @@ body {
 
 .container {
   max-width: 1110px;
+  margin: 3rem;
 }
 
 nav {
@@ -259,7 +265,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 4rem;
+  margin-top: 2rem;
   max-width: 1070px;
 }
 
