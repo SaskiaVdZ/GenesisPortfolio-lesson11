@@ -311,6 +311,7 @@ nav {
   align-items: center;
   margin-top: 2rem;
   max-width: 100%;
+  flex-wrap: wrap;
 }
 
 ul {
@@ -318,7 +319,6 @@ ul {
   flex-direction: row;
   justify-content: end;
   list-style: none;
-  flex-wrap: wrap;
 }
 
 li {
@@ -353,7 +353,7 @@ footer {
 
 i {
   padding: 1rem;
-  font-size: large;
+  font-size: medium;
   cursor: pointer;
 }
 
