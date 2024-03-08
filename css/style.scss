@@ -17,6 +17,11 @@ body {
     
 }
 
+footer {
+    margin-bottom: 2rem;
+}
+
+
 nav {
     @include flex-row-space-between ();
     align-items: center;
@@ -31,13 +36,14 @@ ul {
     flex-direction: row;
     justify-content: end;
     list-style: none;
+    align-items: baseline;
 }
 
 li {
     color: $primary-color;
     font-size: $font-size-m;
     font-weight: $font-weight-heavy;
-    padding-left: 30px;
+    padding-left: 2rem;
   }
 
 a {
@@ -61,15 +67,11 @@ li a.active {
 }
 
 
-footer {
-    margin-bottom: 2rem;
-}
+
  i {
     padding: 1rem;
     font-size: medium;
     cursor: pointer;
-    
-
  }
 
  i:hover {
