@@ -318,6 +318,7 @@ ul {
   flex-direction: row;
   justify-content: end;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 li {
@@ -352,7 +353,7 @@ footer {
 
 i {
   padding: 1rem;
-  font-size: larger;
+  font-size: large;
   cursor: pointer;
 }
 
