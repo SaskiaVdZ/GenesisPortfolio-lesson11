@@ -288,12 +288,13 @@ button {
   height: 100%;
 }
 
-@media only screen and (max-width: 320px) {
-  form {
-    max-width: 300px;
-  }
+@media (max-width: 400px) {
   input {
-    width: 250px;
+    font-size: 10px;
+    max-width: 250px;
+  }
+  label {
+    font-size: 10px;
   }
 }
 body {
