@@ -324,11 +324,12 @@ ul {
   justify-content: end;
   list-style: none;
   align-items: baseline;
+  flex-wrap: wrap;
 }
 
 li {
   color: #111111;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
   padding-left: 2rem;
 }
