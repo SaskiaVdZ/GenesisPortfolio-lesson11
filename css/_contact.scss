@@ -4,7 +4,6 @@
 .section-form {
     @include flex-row-space-between ();
     flex-wrap: wrap;
-    /*padding-right: 3rem;*/
     margin-top: 10rem;
     margin-bottom: 6rem;
     justify-content: space-around;
@@ -13,16 +12,17 @@
 .header-contact{
     flex-wrap: wrap;
     margin-bottom: 3rem;
-    margin-right: 3rem;
+    margin-right: 177px;
     font-size: $font-size-xs;
     opacity: $opacity-dark;
     font-weight: $font-weight-medium;
     line-height: $line-heigt-s;
+    max-width: 350px;
 }
 
 form, input, label{
     max-width: 550px;
-    margin:1rem;
+    margin: 1rem;
     text-align: right;
     font-size: $font-size-xs;
     opacity: $opacity-dark;
@@ -58,6 +58,8 @@ button {
     border: none;
     border-radius: 12px;
 }
+
+
 
 .iframe-container {
     position: relative;

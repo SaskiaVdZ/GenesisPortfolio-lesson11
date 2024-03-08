@@ -14,14 +14,14 @@ body {
 .container {
     max-width: 1110px;
     margin: 3rem;
+    
 }
 
 nav {
     @include flex-row-space-between ();
     align-items: center;
     margin-top: 2rem;
-    width: 100%;
-   
+    max-width: 100%;
 }
 
 
@@ -57,11 +57,20 @@ li a:focus{
 }
 
 li a.active {
-    color: rgb(229, 95, 5);
+    color: rgb(16, 205, 242);
 }
 
 
 footer {
     margin-bottom: 2rem;
 }
+ i {
+    padding: 1rem;
+    font-size: larger;
+    cursor: pointer;
+ }
 
+ i:hover {
+    color:  rgb(16, 205, 242);
+    
+}

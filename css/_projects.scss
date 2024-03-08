@@ -21,7 +21,6 @@ table {
     font-weight: $font-weight-medium;
     line-height: $line-heigt-s;
     flex-wrap: wrap;
-    padding-right: 3rem;
 }
 
 .paragraph2-projects {
@@ -29,8 +28,7 @@ table {
     opacity: $opacity-dark;
     font-weight: $font-weight-medium;
     line-height: $line-heigt-s;
-    flex-wrap: wrap;
-    padding-right: 3rem;
+    flex-wrap: wrap; 
 }
 
 td {
