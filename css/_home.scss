@@ -66,7 +66,6 @@
     align-items: baseline;
     margin-top: 90px;
     margin-bottom: 90px;
-    max-width: 1110px;
     flex-wrap: wrap;
 }
 
@@ -95,7 +94,7 @@ hr {
     display: grid;
     grid-template-columns: repeat (5, 1fr);
     grid-template-rows: (4, 1fr);
-    gap: 5px;
+    
 }
 
 .item1{
@@ -104,8 +103,7 @@ hr {
     font-family: $font-primary;
     color: $primary-color;
     font-size: $font-size-m;
-    font-weight: $font-weight-heavy;  
-    width: 252px;
+    font-weight: $font-weight-heavy; 
 }
 
 .item2{

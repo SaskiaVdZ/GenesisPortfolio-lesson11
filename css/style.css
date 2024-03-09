@@ -65,7 +65,6 @@
   align-items: baseline;
   margin-top: 90px;
   margin-bottom: 90px;
-  max-width: 1110px;
   flex-wrap: wrap;
 }
 
@@ -94,7 +93,6 @@ hr {
   display: grid;
   grid-template-columns: repeat 5, 1fr;
   grid-template-rows: 4, 1fr;
-  gap: 5px;
 }
 
 .item1 {
@@ -104,7 +102,6 @@ hr {
   color: #111111;
   font-size: 22px;
   font-weight: 700;
-  width: 252px;
 }
 
 .item2 {
@@ -219,7 +216,6 @@ td {
   flex-wrap: wrap;
   margin-top: 10rem;
   margin-bottom: 6rem;
-  justify-content: space-around;
 }
 
 .header-contact {
@@ -229,11 +225,11 @@ td {
   opacity: 0.8;
   font-weight: 400;
   line-height: 26px;
-  max-width: 350px;
+  max-width: 400px;
 }
 
-.divider {
-  width: 340px;
+.container-form {
+  display: flex;
 }
 
 form {
@@ -258,7 +254,7 @@ label {
 input {
   border-radius: 6px;
   border: 1px solid rgb(175, 173, 173);
-  width: 400px;
+  width: 300px;
   margin-bottom: 1rem;
   padding: 0.5rem;
 }
@@ -292,6 +288,13 @@ button {
   height: 100%;
 }
 
+#womanWalking {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 body {
   display: flex;
   justify-content: flex-start;
@@ -304,7 +307,7 @@ body {
 }
 
 .container {
-  max-width: 1110px;
+  max-width: 70rem;
   margin: 3rem;
 }
 
