@@ -88,3 +88,9 @@ button {
         width: 17rem; 
     }
   }
+
+  @media (max-width: 425px) {
+    input {
+        width: 22rem; 
+    }
+  }

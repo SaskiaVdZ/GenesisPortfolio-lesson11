@@ -73,3 +73,16 @@ td {
         width: 17rem; 
     }
   }
+
+
+  @media (max-width: 425px) {
+    .paragraph1-projects, 
+    #womanWalking, 
+    .paragraph2-projects,
+    .section-table, 
+    table, 
+    .wrapper-table, 
+    .three-images img {
+        width: 22rem; 
+    }
+  }

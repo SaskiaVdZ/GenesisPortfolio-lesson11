@@ -37,11 +37,11 @@
   flex-direction: row;
   margin-top: 5rem;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .column1, .column2, .column3 {
-  max-width: 320px;
+  max-width: 22rem;
   margin: 0px 5px 0px 5px;
   overflow: hidden;
 }
@@ -176,6 +176,16 @@ hr {
     font-size: 0.6rem;
   }
 }
+@media (max-width: 425px) {
+  .gallery,
+  .column1, .column2, .column3,
+  .gallery img {
+    width: 22rem;
+    padding: 0rem;
+    margin: 0rem;
+    margin-bottom: 1rem;
+  }
+}
 .section-table {
   margin-top: 4rem;
   flex-wrap: wrap;
@@ -243,6 +253,17 @@ td {
   .wrapper-table,
   .three-images img {
     width: 17rem;
+  }
+}
+@media (max-width: 425px) {
+  .paragraph1-projects,
+  #womanWalking,
+  .paragraph2-projects,
+  .section-table,
+  table,
+  .wrapper-table,
+  .three-images img {
+    width: 22rem;
   }
 }
 .section-form {
@@ -327,6 +348,11 @@ button {
 @media (max-width: 320px) {
   input {
     width: 17rem;
+  }
+}
+@media (max-width: 425px) {
+  input {
+    width: 22rem;
   }
 }
 body {
