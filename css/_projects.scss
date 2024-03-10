@@ -14,7 +14,7 @@ table {
 }
 
 .paragraph1-projects {
-    max-width: 635px;
+    max-width: 40rem;
     font-size: $font-size-xs;
     opacity: $opacity-dark;
     font-weight: $font-weight-medium;
@@ -36,7 +36,7 @@ td {
     opacity: $opacity-light;
     border-bottom-style: solid;
     border-bottom-width: thin;
-    padding: 10px;
+    padding: 0.7rem;
 }
 
 
@@ -62,3 +62,14 @@ td {
     margin: 0.5rem;
 }
 
+@media (max-width: 320px) {
+    .paragraph1-projects, 
+    #womanWalking, 
+    .paragraph2-projects,
+    .section-table, 
+    table, 
+    .wrapper-table, 
+    .three-images img {
+        width: 17rem; 
+    }
+  }

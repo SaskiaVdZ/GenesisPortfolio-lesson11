@@ -10,7 +10,7 @@
   color: #4A4FF2;
   font-size: 22px;
   font-weight: 700;
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 
 .heading-home {
@@ -35,7 +35,7 @@
 .gallery {
   display: flex;
   flex-direction: row;
-  margin-top: 80px;
+  margin-top: 5rem;
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -51,11 +51,7 @@
 }
 
 .gallery img {
-  padding: 10px;
-}
-
-.image-logo {
-  padding: 0px;
+  padding: 1rem;
 }
 
 .section2 {
@@ -63,8 +59,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
-  margin-top: 90px;
-  margin-bottom: 90px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   flex-wrap: wrap;
 }
 
@@ -81,7 +77,7 @@
   font-size: 18px;
   font-weight: 400;
   opacity: 0.6;
-  padding: 10px;
+  padding: 1rem;
 }
 
 hr {
@@ -151,6 +147,35 @@ hr {
   align-items: flex-end;
 }
 
+@media (max-width: 320px) {
+  .section1,
+  .title-home,
+  .heading-home,
+  .statement-home,
+  .gallery,
+  .column1, .column2, .column3 .gallery img,
+  .section2,
+  .heading-work,
+  .typeswork,
+  .section-awards,
+  .section-table {
+    width: 17rem;
+  }
+  .gallery img {
+    padding: 0rem;
+    margin-top: 1rem;
+  }
+  .column1, .column2, .column3 {
+    margin: 0rem;
+    overflow: hidden;
+  }
+  .gallery {
+    margin-top: 0rem;
+  }
+  .item1 {
+    font-size: 0.6rem;
+  }
+}
 .section-table {
   margin-top: 4rem;
   flex-wrap: wrap;
@@ -165,7 +190,7 @@ table {
 }
 
 .paragraph1-projects {
-  max-width: 635px;
+  max-width: 40rem;
   font-size: 16px;
   opacity: 0.8;
   font-weight: 400;
@@ -187,7 +212,7 @@ td {
   opacity: 0.5;
   border-bottom-style: solid;
   border-bottom-width: thin;
-  padding: 10px;
+  padding: 0.7rem;
 }
 
 #womanWalking {
@@ -209,13 +234,24 @@ td {
   margin: 0.5rem;
 }
 
+@media (max-width: 320px) {
+  .paragraph1-projects,
+  #womanWalking,
+  .paragraph2-projects,
+  .section-table,
+  table,
+  .wrapper-table,
+  .three-images img {
+    width: 17rem;
+  }
+}
 .section-form {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 10rem;
-  margin-bottom: 6rem;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
 }
 
 .header-contact {
@@ -225,7 +261,7 @@ td {
   opacity: 0.8;
   font-weight: 400;
   line-height: 26px;
-  max-width: 400px;
+  max-width: 25rem;
 }
 
 .container-form {
@@ -254,18 +290,18 @@ label {
 input {
   border-radius: 6px;
   border: 1px solid rgb(175, 173, 173);
-  width: 300px;
+  width: 20rem;
   margin-bottom: 1rem;
   padding: 0.5rem;
 }
 
 button {
   margin-top: 1rem;
-  width: 125px;
-  height: 50px;
+  width: 8rem;
+  height: 3rem;
   background-color: #4A4FF2;
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   border: none;
   border-radius: 12px;
@@ -288,13 +324,11 @@ button {
   height: 100%;
 }
 
-#womanWalking {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  flex-wrap: wrap;
-  width: 100%;
+@media (max-width: 320px) {
+  input {
+    width: 17rem;
+  }
 }
-
 body {
   display: flex;
   justify-content: flex-start;
@@ -367,4 +401,11 @@ i {
 
 i:hover {
   color: rgb(16, 205, 242);
+}
+
+@media (max-width: 320px) {
+  li {
+    font-size: 1rem;
+    padding: 0.3rem;
+  }
 }/*# sourceMappingURL=style.css.map */

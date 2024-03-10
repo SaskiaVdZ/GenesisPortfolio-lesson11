@@ -10,7 +10,7 @@
     color: $secondary-color;
     font-size: $font-size-m;
     font-weight: $font-weight-heavy;
-    margin-top: 80px;
+    margin-top: 5rem;
     
 }
 
@@ -37,7 +37,7 @@
 .gallery {
     display: flex;
     flex-direction: row; 
-    margin-top: 80px;
+    margin-top: 5rem;
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -48,28 +48,25 @@
     overflow: hidden;
 }
 
-.column1{
+.column1 {
     margin-left: 0;
 
 }
 
 .gallery img {
-    padding: 10px;  
+    padding: 1rem;  
 }
 
-.image-logo{
-    padding: 0px;
-}
 
-.section2{
+.section2 {
     @include flex-row-space-between ();
     align-items: baseline;
-    margin-top: 90px;
-    margin-bottom: 90px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     flex-wrap: wrap;
 }
 
-.heading-work{
+.heading-work {
     color: $primary-color;
     font-size: $font-size-l;
     font-weight: $font-weight-heavy;
@@ -82,7 +79,7 @@
     font-size: $font-size-s;
     font-weight: $font-weight-medium;
     opacity: $opacity-medium;
-    padding: 10px;
+    padding: 1rem;
 }
 
 hr {
@@ -151,3 +148,39 @@ hr {
     @include flex-row-space-between ();
     align-items: flex-end;
 }
+
+
+@media (max-width: 320px) {
+    .section1,
+    .title-home,
+    .heading-home,
+    .statement-home, 
+    .gallery,
+    .column1, .column2, .column3
+    .gallery img,
+    .section2,
+    .heading-work,
+    .typeswork,
+    .section-awards,
+    .section-table 
+    {
+        width: 17rem; 
+    }
+    .gallery img {
+        padding: 0rem; 
+        margin-top: 1rem; 
+    }
+    .column1, .column2, .column3 {
+        margin: 0rem;
+        overflow: hidden;
+    }
+    .gallery  {
+        margin-top: 0rem; 
+    }
+    .item1 {
+        font-size: 0.6rem;
+        
+    }
+  }
+ 
+  

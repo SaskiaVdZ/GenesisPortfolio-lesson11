@@ -6,8 +6,8 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 10rem;
-    margin-bottom: 6rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
 }
 
 .header-contact{
@@ -17,7 +17,7 @@
     opacity: $opacity-dark;
     font-weight: $font-weight-medium;
     line-height: $line-heigt-s;
-    max-width: 400px;
+    max-width: 25rem;
 }
 
 .container-form {
@@ -48,18 +48,18 @@ label {
 input {
     border-radius: 6px;
     border: 1px solid rgb(175, 173, 173);
-    width: 300px; 
+    width: 20rem; 
     margin-bottom: 1rem;
     padding: 0.5rem;
 }
 
 button {
     margin-top:1rem;
-    width: 125px;
-    height: 50px;
+    width: 8rem;
+    height: 3rem;
     background-color: #4A4FF2;
     color: #fff;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     border: none;
     border-radius: 12px;
@@ -83,12 +83,8 @@ button {
     height: 100%;
   }
 
-  #womanWalking {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    flex-wrap: wrap;
-    width: 100%;
- 
-}
-  
-
+  @media (max-width: 320px) {
+    input {
+        width: 17rem; 
+    }
+  }
