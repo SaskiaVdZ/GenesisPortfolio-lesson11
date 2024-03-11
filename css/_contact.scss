@@ -65,6 +65,13 @@ button {
     border-radius: 12px;
 }
 
+.paragraph1-contact {
+    font-size: $font-size-xs;
+    opacity: $opacity-dark;
+    font-weight: $font-weight-medium;
+    line-height: $line-heigt-s;
+    flex-wrap: wrap; 
+}
 
 .iframe-container {
     position: relative;
@@ -83,14 +90,20 @@ button {
     height: 100%;
   }
 
-  @media (max-width: 320px) {
-    input {
-        width: 17rem; 
-    }
-  }
-
   @media (max-width: 425px) {
     input {
         width: 22rem; 
+    }
+  }
+
+  @media (max-width: 375px) {
+    input {
+        width: 20rem; 
+    }
+  }
+
+  @media (max-width: 320px) {
+    input {
+        width: 17rem; 
     }
   }

@@ -147,6 +147,34 @@ hr {
   align-items: flex-end;
 }
 
+.paragraph1-home {
+  font-size: 16px;
+  opacity: 0.8;
+  font-weight: 400;
+  line-height: 26px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 425px) {
+  .gallery,
+  .column1, .column2, .column3,
+  .gallery img {
+    width: 23rem;
+    padding: 0rem;
+    margin: 0rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 375px) {
+  .gallery,
+  .column1, .column2, .column3,
+  .gallery img {
+    width: 20rem;
+    padding: 0rem;
+    margin: 0rem;
+    margin-bottom: 1rem;
+  }
+}
 @media (max-width: 320px) {
   .section1,
   .title-home,
@@ -159,7 +187,7 @@ hr {
   .typeswork,
   .section-awards,
   .section-table {
-    width: 17rem;
+    width: 18rem;
   }
   .gallery img {
     padding: 0rem;
@@ -174,16 +202,6 @@ hr {
   }
   .item1 {
     font-size: 0.6rem;
-  }
-}
-@media (max-width: 425px) {
-  .gallery,
-  .column1, .column2, .column3,
-  .gallery img {
-    width: 22rem;
-    padding: 0rem;
-    margin: 0rem;
-    margin-bottom: 1rem;
   }
 }
 .section-table {
@@ -244,17 +262,6 @@ td {
   margin: 0.5rem;
 }
 
-@media (max-width: 320px) {
-  .paragraph1-projects,
-  #womanWalking,
-  .paragraph2-projects,
-  .section-table,
-  table,
-  .wrapper-table,
-  .three-images img {
-    width: 17rem;
-  }
-}
 @media (max-width: 425px) {
   .paragraph1-projects,
   #womanWalking,
@@ -264,6 +271,28 @@ td {
   .wrapper-table,
   .three-images img {
     width: 22rem;
+  }
+}
+@media (max-width: 375px) {
+  .paragraph1-projects,
+  #womanWalking,
+  .paragraph2-projects,
+  .section-table,
+  table,
+  .wrapper-table,
+  .three-images img {
+    width: 20rem;
+  }
+}
+@media (max-width: 320px) {
+  .paragraph1-projects,
+  #womanWalking,
+  .paragraph2-projects,
+  .section-table,
+  table,
+  .wrapper-table,
+  .three-images img {
+    width: 17rem;
   }
 }
 .section-form {
@@ -328,6 +357,14 @@ button {
   border-radius: 12px;
 }
 
+.paragraph1-contact {
+  font-size: 16px;
+  opacity: 0.8;
+  font-weight: 400;
+  line-height: 26px;
+  flex-wrap: wrap;
+}
+
 .iframe-container {
   position: relative;
   overflow: hidden;
@@ -345,14 +382,19 @@ button {
   height: 100%;
 }
 
-@media (max-width: 320px) {
-  input {
-    width: 17rem;
-  }
-}
 @media (max-width: 425px) {
   input {
     width: 22rem;
+  }
+}
+@media (max-width: 375px) {
+  input {
+    width: 20rem;
+  }
+}
+@media (max-width: 320px) {
+  input {
+    width: 17rem;
   }
 }
 body {

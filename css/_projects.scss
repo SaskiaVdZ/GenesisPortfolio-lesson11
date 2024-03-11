@@ -62,18 +62,6 @@ td {
     margin: 0.5rem;
 }
 
-@media (max-width: 320px) {
-    .paragraph1-projects, 
-    #womanWalking, 
-    .paragraph2-projects,
-    .section-table, 
-    table, 
-    .wrapper-table, 
-    .three-images img {
-        width: 17rem; 
-    }
-  }
-
 
   @media (max-width: 425px) {
     .paragraph1-projects, 
@@ -84,5 +72,29 @@ td {
     .wrapper-table, 
     .three-images img {
         width: 22rem; 
+    }
+  }
+
+  @media (max-width: 375px) {
+    .paragraph1-projects, 
+    #womanWalking, 
+    .paragraph2-projects,
+    .section-table, 
+    table, 
+    .wrapper-table, 
+    .three-images img {
+        width: 20rem; 
+    }
+  }
+
+  @media (max-width: 320px) {
+    .paragraph1-projects, 
+    #womanWalking, 
+    .paragraph2-projects,
+    .section-table, 
+    table, 
+    .wrapper-table, 
+    .three-images img {
+        width: 17rem; 
     }
   }
