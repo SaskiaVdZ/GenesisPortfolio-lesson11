@@ -89,6 +89,8 @@ hr {
   display: grid;
   grid-template-columns: repeat 5, 1fr;
   grid-template-rows: 4, 1fr;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
 .item1 {
@@ -181,8 +183,17 @@ hr {
   .gallery {
     margin-top: 0rem;
   }
-  .item1 {
-    font-size: 0.6rem;
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6,
+  .item7,
+  .item8,
+  .item9 {
+    font-size: 0.7rem;
+    padding-left: 1rem;
   }
 }
 @media (min-width: 321px) and (max-width: 375px) {
@@ -194,6 +205,18 @@ hr {
     margin: 0rem;
     margin-bottom: 1rem;
   }
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6,
+  .item7,
+  .item8,
+  .item9 {
+    font-size: 0.7rem;
+    padding-left: 1rem;
+  }
 }
 @media (min-width: 376px) and (max-width: 425px) {
   .gallery,
@@ -203,6 +226,18 @@ hr {
     padding: 0rem;
     margin: 0rem;
     margin-bottom: 1rem;
+  }
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6,
+  .item7,
+  .item8,
+  .item9 {
+    font-size: 0.7rem;
+    padding-left: 1rem;
   }
 }
 .section-table {
