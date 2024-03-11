@@ -158,31 +158,6 @@ hr {
 }
 
 
-
-  @media (max-width: 425px) {
-    .gallery,
-    .column1, .column2, .column3,
-    .gallery img
-    {
-        width: 23rem;
-        padding: 0rem;
-        margin: 0rem;
-        margin-bottom: 1rem;
-    }
-  }
-
-  @media (max-width: 375px) {
-    .gallery,
-    .column1, .column2, .column3,
-    .gallery img
-    {
-        width: 20rem;
-        padding: 0rem;
-        margin: 0rem;
-        margin-bottom: 1rem;
-    }
-  }
-
   @media (max-width: 320px) {
     .section1,
     .title-home,
@@ -195,7 +170,8 @@ hr {
     .heading-work,
     .typeswork,
     .section-awards,
-    .section-table 
+    .section-table,
+    .paragraph1-home
     {
         width: 18rem; 
     }
@@ -216,4 +192,26 @@ hr {
     }
   }
  
+  @media (min-width:321px) and (max-width: 375px) {
+    .gallery,
+    .column1, .column2, .column3,
+    .gallery img
+    {
+        width: 20rem;
+        padding: 0rem;
+        margin: 0rem;
+        margin-bottom: 1rem;
+    }
+  }
   
+  @media (min-width:376px) and (max-width: 425px) {
+    .gallery,
+    .column1, .column2, .column3,
+    .gallery img
+    {
+        width: 23rem;
+        padding: 0rem;
+        margin: 0rem;
+        margin-bottom: 1rem;
+    }
+  }

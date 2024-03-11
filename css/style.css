@@ -155,26 +155,6 @@ hr {
   flex-wrap: wrap;
 }
 
-@media (max-width: 425px) {
-  .gallery,
-  .column1, .column2, .column3,
-  .gallery img {
-    width: 23rem;
-    padding: 0rem;
-    margin: 0rem;
-    margin-bottom: 1rem;
-  }
-}
-@media (max-width: 375px) {
-  .gallery,
-  .column1, .column2, .column3,
-  .gallery img {
-    width: 20rem;
-    padding: 0rem;
-    margin: 0rem;
-    margin-bottom: 1rem;
-  }
-}
 @media (max-width: 320px) {
   .section1,
   .title-home,
@@ -186,7 +166,8 @@ hr {
   .heading-work,
   .typeswork,
   .section-awards,
-  .section-table {
+  .section-table,
+  .paragraph1-home {
     width: 18rem;
   }
   .gallery img {
@@ -202,6 +183,26 @@ hr {
   }
   .item1 {
     font-size: 0.6rem;
+  }
+}
+@media (min-width: 321px) and (max-width: 375px) {
+  .gallery,
+  .column1, .column2, .column3,
+  .gallery img {
+    width: 20rem;
+    padding: 0rem;
+    margin: 0rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 376px) and (max-width: 425px) {
+  .gallery,
+  .column1, .column2, .column3,
+  .gallery img {
+    width: 23rem;
+    padding: 0rem;
+    margin: 0rem;
+    margin-bottom: 1rem;
   }
 }
 .section-table {
@@ -438,7 +439,7 @@ ul {
 
 li {
   color: #111111;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
   padding-left: 1rem;
 }
@@ -472,6 +473,12 @@ i:hover {
 }
 
 @media (max-width: 320px) {
+  li {
+    font-size: 1rem;
+    padding: 0.3rem;
+  }
+}
+@media (max-width: 375px) {
   li {
     font-size: 1rem;
     padding: 0.3rem;

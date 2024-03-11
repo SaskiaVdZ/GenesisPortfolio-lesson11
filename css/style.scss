@@ -39,7 +39,7 @@ ul {
 
 li {
   color: $primary-color;
-  font-size: $font-size-s;
+  font-size: $font-size-m;
   font-weight: $font-weight-heavy;
   padding-left: 1rem;
 }
@@ -73,6 +73,13 @@ i:hover {
 }
 
 @media (max-width: 320px) {
+    li {
+        font-size: 1rem; 
+        padding: 0.3rem;
+    }
+  }
+
+  @media (max-width: 375px) {
     li {
         font-size: 1rem; 
         padding: 0.3rem;
